@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">City…</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">City not saved because it is empty.</string>
+    <string name="add_word">Add city</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="guardar">Guardar</string>
+    <string name="nombre_de_la_ciudad">Nombre de la ciudad</string>
+    <string-array name="weather_icons">
+        <item>Soleado</item>
+        <item>Nublado</item>
+        <item>Lluvioso</item>
+        <item>Tormenta</item>
+    </string-array>
+</resources>

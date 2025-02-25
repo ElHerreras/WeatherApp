@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Capa de sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#33000000"/>
+            <corners android:radius="15dp"/>
+        </shape>
+    </item>
+    <!-- Capa principal con gradiente -->
+    <item android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="4dp">
+        <shape>
+            <gradient
+                android:startColor="#B300BFA5"
+                android:centerColor="#B30099CC"
+                android:endColor="#B3092D88"
+                android:angle="180"
+                android:type="linear" />
+            <corners android:radius="15dp"/>
+        </shape>
+    </item>
+</layer-list>
